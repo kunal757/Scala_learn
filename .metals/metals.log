@@ -74,3 +74,9 @@ val duration=(System.nanoTime()-t1)/1e
 2024.07.03 12:29:40 INFO  time: compiled Scala_learn_f4dd477a3a in 0.21s
 2024.07.03 12:29:58 INFO  compiling scala_learn_f4dd477a3a (1 scala source)
 2024.07.03 12:29:58 INFO  time: compiled Scala_learn_f4dd477a3a in 0.17s
+Jul 03, 2024 3:10:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 564
+2024.07.03 15:10:32 INFO  compiling scala_learn_f4dd477a3a (1 scala source)
+2024.07.03 15:10:32 INFO  time: compiled Scala_learn_f4dd477a3a in 0.22s
+Jul 03, 2024 3:14:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

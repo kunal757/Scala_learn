@@ -20,6 +20,7 @@ object FrenchDate {
 }
 
 //to show that the packages from Java can be directky imported into the system.
+//Tester
 /*</script>*/ /*<generated>*//*</generated>*/
 }
 
