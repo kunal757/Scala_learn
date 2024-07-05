@@ -11,7 +11,7 @@ object functional{
     }
     def main(args:Array[String]):Unit={
         OncePerSecond(timeflies)
-        OncePerSecond(()=>println("Iski behen ki mjje mjje"))
+        OncePerSecond(()=>println("Tester2"))
     }
 }
 // Need to learn multithreading for this
