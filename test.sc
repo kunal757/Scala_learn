@@ -1,8 +1,9 @@
 import scala.collection._
 object HelloWorld {
   def main(args: Array[String]): Unit = {
-    val a=Seq(1 to 10)
-    val b=a.map(_**2).reduce(_+_)-a.reduce(_+_)**2
-    println(b)
+    val a=Seq(1 to 10).flatten
+    val b=a.map(i=> scala.math.pow(i,2)).reduce(_+_)-scala.math.pow(a.reduce(_+_),2)
+    println(b.toLong)
   }
 }
+//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
