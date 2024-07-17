@@ -4,13 +4,13 @@ import scala.collection.mutable._
 object reader{
     def main(args: Array[String]):Unit={
         if (args.length > 0) {
+            println("flag")
             for (line <- Source.fromFile(args(0)).getLines())
                 println(line)
             }
         else
             Console.err.println("Please enter filename")
-        }
-        val states=Map(1->"Aadweek Verma",2->"Kanishka",3->"Pratik")
+        val states=Map(1->"AMD",2->"CMD",3->"MDMA")
         println(states.apply(1))
         states(1)="Kunal"
         println(states(1))
@@ -25,4 +25,5 @@ object reader{
         println(seq)
         seq=seq.reverse
         println(seq)
+    }    
 }
